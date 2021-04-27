@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url('../bg.jpg') no-repeat;
+    background-size: cover;
+    font-family: 'Courgette', cursive;
+}
+header{
+    
+    text-align: center;
+    font-size: 36px;
+    background-color: WhiteSmoke;
+}
+
+#info-form{
+    
+    float: left;
+    width: 500px;
+    height: 350px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 200px;
+    background-color: rgb(211, 211, 211, 0.548);
+    margin-bottom: 200px;
+}
+#info{
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 50px;
+    height: 250px;   
+}
+
+input,select{
+    display: block;
+    width: 50%;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+#userlbl{
+    display:inline-block;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 35px;
+}
+#typelbl{
+    display:inline-block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#table-section{
+    float: right;
+    margin-right: 50px;
+    margin-top: 200px;
+    width: 550px;
+    background-color: rgb(211, 211, 211, 0.548);
+    margin-bottom: 100px; 
+}
+#info-table{
+    margin-top: 50px;
+    font-size: 20px;
+    border-collapse: collapse;
+    border:whitesmoke 2px solid;
+    color: whitesmoke;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+#info-table th{
+    background-color: RGB(39, 39, 39);
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#info-table td{
+    padding: 20px;
+    border: 2px solid whitesmoke;
+    background-color: rgb(78, 78, 78);
+    font-weight: bold;
+    font-size: 24px;
+}
+footer{
+    clear: both;
+    background-color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    height: 75px;
+    bottom: 0;
+    vertical-align: middle;
+    line-height: 70px;
+
+}
